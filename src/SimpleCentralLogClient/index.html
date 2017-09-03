@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Log Viewer</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/w3.css" />
+
+    <script rel="Javascript" src="js/promise.min.js"></script>
+    <script rel="Javascript" src="js/app.js"></script>
+</head>
+
+<body style="padding:0px; margin:0px;">
+    <div class="w3-container" style="background: url(img/head.png) no-repeat; min-width:800px; min-height:200px;">
+        <span style="position:relative; left: 20px; top:10px">
+            <h1 >Simple Central Log Viewer</h1>
+            View your logs everywhere
+        </span>
+    </div>
+    <div class="w3-container">
+        <div id="errors">
+        </div>        
+
+        <div class="w3-row">
+            <div class="w3-col s12 m4 l2 w3-margin-right">
+                <label>Application:</label>
+                <input id="Application" type="text" placeholder="Application">
+            </div>            
+            <div class="w3-col s12 m4 l2 w3-margin-right">
+                <label>Message:</label>
+                <input id="Message" type="text" placeholder="Messagetext">
+            </div>         
+            <div class="w3-col s12 m4 l2 w3-margin-right">
+                <label>Messageclass:</label>
+                <select id="Messageclass" placeholder="Messageclass">
+                    <option value=""></option>
+                    <option value="Detail">Detail</option>
+                    <option value="Information">Information</option>
+                    <option value="Warning">Warning</option>
+                    <option value="Error">Error</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

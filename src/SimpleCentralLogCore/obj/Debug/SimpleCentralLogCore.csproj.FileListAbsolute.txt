@@ -1,0 +1,7 @@
+D:\src\net\SimpleCentralLog\SimpleCentralLogCore\bin\Debug\SimpleCentralLogCore.dll
+D:\src\net\SimpleCentralLog\SimpleCentralLogCore\bin\Debug\SimpleCentralLogCore.pdb
+D:\src\net\SimpleCentralLog\SimpleCentralLogCore\obj\Debug\SimpleCentralLogCore.csprojResolveAssemblyReference.cache
+D:\src\net\SimpleCentralLog\SimpleCentralLogCore\obj\Debug\SimpleCentralLogCore.dll
+D:\src\net\SimpleCentralLog\SimpleCentralLogCore\obj\Debug\SimpleCentralLogCore.pdb
+D:\src\net\SimpleCentralLog\SimpleCentralLogCore\bin\Debug\NUnit.Framework.dll
+D:\src\net\SimpleCentralLog\SimpleCentralLogCore\bin\Debug\Newtonsoft.Json.dll

@@ -1,0 +1,11 @@
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\obj\Debug\SimpleCentralLogUnitTest.csprojResolveAssemblyReference.cache
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\SimpleCentralLogUnitTest.dll.config
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\SimpleCentralLogUnitTest.dll
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\SimpleCentralLogUnitTest.pdb
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\nunit.framework.dll
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\SimpleCentralLogCore.dll
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\SimpleCentralLogCore.pdb
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\nunit.framework.xml
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\obj\Debug\SimpleCentralLogUnitTest.dll
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\obj\Debug\SimpleCentralLogUnitTest.pdb
+D:\src\net\SimpleCentralLog\SimpleCentralLogUnitTest\bin\Debug\Newtonsoft.Json.dll

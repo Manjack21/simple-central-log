@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCentralLogCore", "SimpleCentralLogCore\SimpleCentralLogCore.csproj", "{9AAAE29F-75A1-4248-9770-CD99D01440C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCentralLogUnitTest", "SimpleCentralLogUnitTest\SimpleCentralLogUnitTest.csproj", "{72CCA553-232B-41EC-8CDA-7262118DCAD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCentralLogConsole", "SimpleCentralLogConsole\SimpleCentralLogConsole.csproj", "{50AB9BDC-8B05-44FC-8BE6-4EE3C230CB9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AAAE29F-75A1-4248-9770-CD99D01440C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAAE29F-75A1-4248-9770-CD99D01440C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAAE29F-75A1-4248-9770-CD99D01440C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAAE29F-75A1-4248-9770-CD99D01440C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CCA553-232B-41EC-8CDA-7262118DCAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CCA553-232B-41EC-8CDA-7262118DCAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CCA553-232B-41EC-8CDA-7262118DCAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CCA553-232B-41EC-8CDA-7262118DCAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AB9BDC-8B05-44FC-8BE6-4EE3C230CB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AB9BDC-8B05-44FC-8BE6-4EE3C230CB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AB9BDC-8B05-44FC-8BE6-4EE3C230CB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AB9BDC-8B05-44FC-8BE6-4EE3C230CB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
