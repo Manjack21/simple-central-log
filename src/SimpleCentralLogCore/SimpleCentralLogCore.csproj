@@ -60,9 +60,9 @@
     <Compile Include="src\Http\IRequest.cs" />
     <Compile Include="src\Http\IResponse.cs" />
     <Compile Include="src\Http\LogService.cs" />
-    <Compile Include="src\Http\QueryRequest.cs" />
     <Compile Include="src\Http\Request.cs" />
     <Compile Include="src\Http\Response.cs" />
+    <Compile Include="src\Http\v1\QueryRequest.cs" />
     <Compile Include="src\Persister\IEntryReader.cs" />
     <Compile Include="src\Persister\IEntryWriter.cs" />
     <Compile Include="src\Persister\IPersister.cs" />
@@ -73,6 +73,7 @@
     <Folder Include="src" />
     <Folder Include="src\Entry" />
     <Folder Include="src\Http" />
+    <Folder Include="src\Http\v1" />
     <Folder Include="src\Persister" />
   </ItemGroup>
   <ItemGroup>

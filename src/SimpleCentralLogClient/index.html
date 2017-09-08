@@ -24,24 +24,66 @@
         <div id="errors">
         </div>        
 
-        <div class="w3-row">
-            <div class="w3-col s12 m4 l2 w3-margin-right">
-                <label>Application:</label>
-                <input id="Application" type="text" placeholder="Application">
+        <div class="w3-row-padding">
+            <div class="w3-col s12 m3 l3">
+                <label for="Application" style="display:none">Application:</label>
+                <input id="Application" name="Application" type="text" placeholder="Application" class="w3-input">
             </div>            
-            <div class="w3-col s12 m4 l2 w3-margin-right">
-                <label>Message:</label>
-                <input id="Message" type="text" placeholder="Messagetext">
+            <div class="w3-col s12 m3 l3">
+                <label for="Message" style="display:none">Message:</label>
+                <input id="Message" name="Message" type="text" placeholder="Messagetext" class="w3-input">
             </div>         
-            <div class="w3-col s12 m4 l2 w3-margin-right">
-                <label>Messageclass:</label>
-                <select id="Messageclass" placeholder="Messageclass">
-                    <option value=""></option>
+            <div class="w3-col s12 m3 l3">
+                <label for="Messageclass" style="display:none">Messageclass:</label>
+                <select id="Messageclass" name="Application" placeholder="Messageclass" class="w3-input">
+                    <option value="" disabled selected>choose Messageclass</option>
                     <option value="Detail">Detail</option>
                     <option value="Information">Information</option>
                     <option value="Warning">Warning</option>
                     <option value="Error">Error</option>
                 </select>
+            </div>               
+        </div>
+        <div class="w3-container">
+            <a href="#" onclick="filterEntries()" class="w3-btn w3-blue w3-round">
+                <i class="fa fa-search"></i> Filter
+            </a>
+        </div>
+
+        <div class="w3-row w3-small w3-border-bottom w3-pale-red">
+            <div class="w3-col w3-center w3-xlarge" style="width:40px;">
+                <i class="fa fa-times-circle"></i>
+            </div>
+            <div class="w3-col s3 m3 l2">
+                App1<br />
+                07:09:54
+            </div>
+            <div class="w3-rest">
+                Exception 0815 was thrown, so the blah stopped working.
+            </div>
+        </div>
+        <div class="w3-row w3-small w3-border-bottom">
+            <div class="w3-col w3-center w3-xlarge" style="width:40px;">
+                <i class="fa fa-info"></i>
+            </div>
+            <div class="w3-col s3 m3 l2">
+                Testapplication Bereich XX<br />
+                08:15:54
+            </div>
+            <div class="w3-rest">
+                Information about a sended Email.
+            </div>
+        </div>
+        <div class="w3-row w3-small w3-border-bottom">
+            <div class="w3-col w3-center w3-xlarge" style="width:40px;">
+                <i class="fa fa-exclamation-triangle"></i>
+            </div>
+            <div class="w3-col s3 m3 l2">
+                Very importent Application<br />
+                08:15:54
+            </div>
+            <div class="w3-rest">
+                Houston, we might get a problem here. Please check this.
             </div>
         </div>
     </div>

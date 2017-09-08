@@ -20,13 +20,13 @@ namespace SimpleCentralLog.Http
     {
         public static Func<IRequest, IResponse> Route(IRequest Request, EntryRepository repo) {
             switch (Request.URI.ToLower()) {
-                case "/log":
+                case "/v1/log":
                     switch (Request.Method.ToUpper()) {
                         case "POST":
                             return LogAdd(repo);
                     }
                     break;
-                case "/query":
+                case "/v1/query":
                     switch (Request.Method.ToUpper()) {
                         case "POST":
                             return Query(repo);

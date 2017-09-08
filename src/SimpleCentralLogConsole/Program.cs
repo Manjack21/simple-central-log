@@ -30,7 +30,7 @@ namespace SimpleCentralLogConsole
             EntryRepository repo = new EntryRepository(Persister, Persister.AllEntries());
             
             LogService ls = new LogService(repo);
-            ls.StartService(8080);
+            ls.StartService("http://*:8080/");
             
             Console.WriteLine("Service started, press key to terminate!");
             Console.ReadKey(true);

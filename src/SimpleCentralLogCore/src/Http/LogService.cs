@@ -31,12 +31,12 @@ namespace SimpleCentralLog.Http
         /// <summary>
         /// Start a httplistener and creates helper-objects to get http-contexts in a seperate thread.
         /// </summary>
-        /// <param name="port">port to listen to</param>
-        public void StartService(UInt16 port) {
+        /// <param name="Prefix">prefix to listen to; mind the tailing slash; format http[s]://[domain|*]:[port]/</param>
+        public void StartService(string Prefix) {
             this.StopService();
             
             listener = new HttpListener();
-            listener.Prefixes.Add(string.Format("http://*:{0}/", port));
+            listener.Prefixes.Add(Prefix);
             listener.Start();
             
             runningContexts = new List<IAsyncResult>();
