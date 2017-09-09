@@ -1,8 +1,2 @@
-src\SimpleCentralLogConsole\bin\
-src\SimpleCentralLogConsole\obj\
-
-src\SimpleCentralLogCore\bin\
-src\SimpleCentralLogCore\obj\
-
-src\SimpleCentralLogUnitTest\bin\
-src\SimpleCentralLogUnitTest\obj\
+**bin
+**obj
